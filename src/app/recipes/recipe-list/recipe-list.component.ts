@@ -8,7 +8,8 @@ import  { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
 	recipes: Recipe[] = [
-		new Recipe('Peppy Paneer Pizza', 'This is simply a test', 'https://www.dominos.co.in//files/items/Paneer_Special.jpg')
+		new Recipe('Peppy Paneer Pizza', 'This is simply a test', 'https://www.dominos.co.in//files/items/Paneer_Special.jpg'),
+		new Recipe('Paneer & Onion Pizza', 'This is simply a test', 'https://feenix.co.in/wp-content/uploads/2018/02/paneer_onion_veg1.jpg')
 	];
 
   constructor() { }
